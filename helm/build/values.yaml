@@ -1,0 +1,15 @@
+app:
+  name: naveenkendyala789-poi-map-app
+  namespace: naveenkendyala789
+  cluster: .apps.igb2792k.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-ms/naveenkendyala789-frontend
+  org: rhdh-ms
+  name: naveenkendyala789-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: naveenkendyala789/poi-map-app
+  tag: latest
